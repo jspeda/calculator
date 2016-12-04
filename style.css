@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
+
+body {
+  background-image: linear-gradient(260deg, #a5fffd 0%,
+    #44e5e2 70%)
+}
+
+.wrapper {
+  display: flex;
+  border: 1px solid white;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.title {
+  /* border: 1px solid white; */
+  font-size: 50px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #4c4c4c;
+  /* margin-top: 50px; */
+}
+
+.calc-box {
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 400px;
+  /* margin-bottom: 20px; */
+}
+
+.footer {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #4c4c4c;
+}
+
+.numbers {
+  border: 1px solid white;
+}
