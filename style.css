@@ -25,11 +25,17 @@ body {
 .calc-box {
   border: 1px solid white;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  justify-content: space-around;
+  flex-direction: column;
   height: 400px;
   width: 400px;
   /* margin-bottom: 20px; */
+}
+
+.readout {
+  border: 1px solid white;
+  height: 70px;
 }
 
 .footer {
@@ -37,6 +43,24 @@ body {
   color: #4c4c4c;
 }
 
-.numbers {
+.row {
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.r1 {
+  justify-content: flex-start;
+  margin: 10px;
+}
+
+.c {
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+a {
   border: 1px solid white;
 }
