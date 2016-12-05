@@ -48,8 +48,5 @@ $(".equals").click(function() {
     answer = floatNewNumber - floatNumber;
     readout.html(answer);
   }
-})
-
-
-
+});
 })
