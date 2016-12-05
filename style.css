@@ -43,6 +43,10 @@ body {
 .footer {
   font-family: 'Source Sans Pro', sans-serif;
   color: #4c4c4c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .row {
@@ -73,10 +77,14 @@ body {
   width: 65px;
 }
 
-a {
+a:not(.github) {
   text-align: center;
   border: 1px solid white;
   width: 75px;
+}
+
+.github {
+  margin-top: 10px;
 }
 
 a:hover {
