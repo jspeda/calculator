@@ -34,10 +34,12 @@ $(".equals").click(function() {
   floatNewNumber = parseFloat(newNumber);
   if (operator === "+") {
     answer = floatNewNumber + floatNumber;
+    newNumber = answer;
     readout.html(answer);
   }
   else if (operator === "*") {
     answer = floatNewNumber * floatNumber;
+    newNumber = answer;
     readout.html(answer);
   }
   else if (operator === "/") {
