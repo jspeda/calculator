@@ -78,6 +78,10 @@ body {
   width: 65px;
 }
 
+.num:hover, .c:hover, .ca:hover, .operator:hover {
+  cursor: pointer;
+}
+
 a:not(.github) {
   text-align: center;
   border: 1px solid white;
