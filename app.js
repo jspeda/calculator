@@ -1,7 +1,7 @@
 $(document).ready(function() {
   var readout = $(".readout");
   var accumulation = [];
-  
+
   $(".num").click(function() {
     accumulation.push($(this).html());
     console.log($(this).html());
@@ -17,7 +17,7 @@ $(document).ready(function() {
   $(".c, .ca").click(function() {
     if ($(this).attr("class") === "ca") {
       accumulation = [];
-      readout.html = "";
+      readout.html("");
     }
     else {
       accumulation.pop();
@@ -29,4 +29,4 @@ $(document).ready(function() {
     console.log(eval(accumulation.join('')));
     readout.html(eval(accumulation.join('')));
   });
-})
+});

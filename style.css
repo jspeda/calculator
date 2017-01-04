@@ -2,7 +2,7 @@
 
 body {
   background-image: linear-gradient(260deg, #a5fffd 0%,
-    #44e5e2 70%)
+    #44e5e2 70%);
 }
 
 .wrapper {
@@ -38,6 +38,7 @@ body {
   color: #4c4c4c;
   display: flex;
   justify-content: flex-end;
+  overflow-x: hidden;
 }
 
 .footer {
